@@ -7,9 +7,9 @@ volumes:
     
 services:
 
-  # https://hub.docker.com/r/homeassistant/raspberrypi3-homeassistant
+  # https://hub.docker.com/r/homeassistant/raspberrypi-homeassistant
   homeassistant:
-    image: "homeassistant/raspberrypi3-homeassistant:dev"
+    image: "homeassistant/raspberrypi-homeassistant:dev"
     ports:
       - "80:8123"
     privileged: true
